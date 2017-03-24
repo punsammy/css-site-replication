@@ -4,7 +4,76 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
+
+
+background: #fff url("../bgtile.png") repeat-x;
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  position: relative;
+}
+
+.blocks {
+  margin-left: 100px;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.phones {
+  display: inline-block;
+  padding: 10px;
+  z-index: 10;
+}
+
+.login {
+  color: white;
+  padding: 2px;
+  margin: 20px;
+  display: inline;
+
+}
+
+.right-side {
+  display: inline-block;
+  padding: 10px;
+
+}
+
+.container {
+  position: relative;
+}
+
+.details {
+  position: relative;
+  top: 20px;
+  z-index: 4;
+  width: 425px;
+  padding-left: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+ul {
+  text-align: center;
+}
+
+.list-items {
+  display: inline;
+  padding: 10px;
+}
+
+.buttons {
+  padding: 30px;
 }
